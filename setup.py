@@ -16,8 +16,8 @@ from setuptools import setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(name='pypassbolt',
-      version='0.0.1',
+setup(name='simple-passbolt-client',
+      version='0.0.2',
       license="Apache License Version 2.0",
       description='Simple Python client for passbolt',
       long_description=long_description,

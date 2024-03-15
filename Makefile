@@ -1,4 +1,4 @@
-.PHONY: wheel clean
+.PHONY: wheel clean pypi-test pypi
 
 
 wheel: dist
@@ -9,3 +9,9 @@ dist:
 
 clean:
 	rm -rf dist/*
+
+pypi-test: wheel
+	python3 -m twine upload --repository testpypi dist/*
+
+pypi: wheel
+	python3 -m twine upload dist/*
