@@ -35,6 +35,10 @@ print(f"PASSWORD: '{secret['password']}'")
 ## Installation
 
 Easy:
+
 ```sh
-pip install pybolt
+pip install pypassbolt
 ```
+
+(no, I couldn't use `pybolt` as pypi package name as it is already used).
+

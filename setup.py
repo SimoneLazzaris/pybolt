@@ -16,7 +16,7 @@ from setuptools import setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(name='pybolt',
+setup(name='pypassbolt',
       version='0.0.1',
       license="Apache License Version 2.0",
       description='Simple Python client for passbolt',
@@ -25,7 +25,7 @@ setup(name='pybolt',
       author='Simone Lazzaris',
       url='https://github.com/slazzaris/pybolt',
       # download_url='',
-      packages=['src/pybolt'],
+      packages=['pybolt'],
       keywords=['passbolt', 'gpgauth'],
       install_requires=[
         'certifi==2024.2.2',

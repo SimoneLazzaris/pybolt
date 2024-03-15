@@ -1,4 +1,4 @@
-.PHONY: wheel
+.PHONY: wheel clean
 
 
 wheel: dist
@@ -6,3 +6,6 @@ wheel: dist
 
 dist:
 	mkdir -p dist
+
+clean:
+	rm -rf dist/*
